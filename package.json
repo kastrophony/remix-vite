@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "remix": "github:remix-run/remix#preview/pr-11629&path:packages/remix",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "nodeModulesDir": "manual",
+  "exclude": ["*.md", ".agents/", "public/"],
+  "lint": {
+    "rules": {
+      "exclude": ["prefer-const"]
+    }
+  }
+}
