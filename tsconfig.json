@@ -2,18 +2,17 @@
   "compilerOptions": {
     "strict": true,
     "lib": ["ES2024", "DOM", "DOM.Iterable"],
-    "types": ["node"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "target": "ESNext",
+    "noEmit": true,
     "allowImportingTsExtensions": true,
-    "rewriteRelativeImportExtensions": true,
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "skipLibCheck": true,
     "jsx": "react-jsx",
     "jsxImportSource": "remix/ui",
-    "noEmit": true
+    "types": ["vite/client"]
   },
-  "exclude": ["dist"]
+  "include": ["app", "vite.config.ts"]
 }

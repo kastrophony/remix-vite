@@ -1,5 +1,8 @@
-import { route } from "remix/routes";
+import { get, post, route } from "remix/routes";
 
 export const routes = route({
-  home: "/",
+  home: get("/"),
+  about: get("/about"),
+  greet: get("/greet"),
+  submitGreet: post("/greet"),
 });
